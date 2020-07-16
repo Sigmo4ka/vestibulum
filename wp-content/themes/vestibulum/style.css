@@ -17,9 +17,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -35,12 +35,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 html, body {
@@ -55,7 +55,7 @@ html, body {
 }
 
 body {
-  background: #F3F3F3;
+	background: #F3F3F3;
 }
 /*header*/
 
@@ -1074,12 +1074,9 @@ footer a:hover {
 }
 
 @media all and (max-width: 600px) {
-  /* .carousel-caption p {
-     display: none;
-   }
-   .one-page__center {
-      height: 40px;
-  }*/
+ .foot-col-3 {
+   padding: 0;
+ }
   .carousel-item img {
     max-width: none !important;
     height: 350px;
