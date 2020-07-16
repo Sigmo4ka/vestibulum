@@ -1145,4 +1145,8 @@ footer a:hover {
   .one-page__center {
     height: 128px;
   }
+  .search-form:hover input#s {
+    width: 226px;
+  }
+
 }
